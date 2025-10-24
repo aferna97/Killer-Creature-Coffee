@@ -1,0 +1,1 @@
+instance_create_layer(room_width-200,room_height-450,"Instances", obj_ticket)
