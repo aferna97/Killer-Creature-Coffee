@@ -43,6 +43,7 @@
     {"name":"Computer","order":4,"path":"rooms/Computer/Computer.yy",},
     {"name":"MainMenu","order":5,"path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"Prep","order":1,"path":"rooms/Prep/Prep.yy",},
+    {"name":"spr_empty_customer","order":3,"path":"sprites/spr_empty_customer/spr_empty_customer.yy",},
     {"name":"spr_left","order":2,"path":"sprites/spr_left/spr_left.yy",},
     {"name":"spr_right","order":1,"path":"sprites/spr_right/spr_right.yy",},
     {"name":"spr_ticket","order":2,"path":"sprites/spr_ticket/spr_ticket.yy",},

@@ -71,6 +71,7 @@
     {"id":{"name":"bg_mm","path":"sprites/bg_mm/bg_mm.yy",},},
     {"id":{"name":"bg_order","path":"sprites/bg_order/bg_order.yy",},},
     {"id":{"name":"bg_prep","path":"sprites/bg_prep/bg_prep.yy",},},
+    {"id":{"name":"spr_empty_customer","path":"sprites/spr_empty_customer/spr_empty_customer.yy",},},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},
     {"id":{"name":"spr_left","path":"sprites/spr_left/spr_left.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},

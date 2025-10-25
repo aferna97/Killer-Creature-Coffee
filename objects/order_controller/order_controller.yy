@@ -29,6 +29,10 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"spawn_x","filters":[],"listItems":[],"multiselect":false,"name":"spawn_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"600","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"customers","filters":[],"listItems":[],"multiselect":false,"name":"customers","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"ordering","filters":[],"listItems":[],"multiselect":false,"name":"ordering","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"customer1","filters":[],"listItems":[],"multiselect":false,"name":"customer1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_empty_customer","path":"sprites/spr_empty_customer/spr_empty_customer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_empty_customer","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"customer2","filters":[],"listItems":[],"multiselect":false,"name":"customer2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_empty_customer","path":"sprites/spr_empty_customer/spr_empty_customer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_empty_customer","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"customer3","filters":[],"listItems":[],"multiselect":false,"name":"customer3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_empty_customer","path":"sprites/spr_empty_customer/spr_empty_customer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_empty_customer","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

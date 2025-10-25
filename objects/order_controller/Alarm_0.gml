@@ -1,5 +1,8 @@
 if (customers < 3){
 	instance_create_layer(spawn_x,15,"Instances",obj_placeholder)
+	
+		customer1 = obj_placeholder
+	
 	spawn_x +=200
 	customers +=1
 }
