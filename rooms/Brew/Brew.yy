@@ -10,6 +10,7 @@
     {"name":"inst_311A5472","path":"rooms/Brew/Brew.yy",},
     {"name":"inst_6D8971","path":"rooms/Brew/Brew.yy",},
     {"name":"inst_3FC193A2","path":"rooms/Brew/Brew.yy",},
+    {"name":"inst_15ACD65A","path":"rooms/Brew/Brew.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
         {"$GMRInstance":"v2","%Name":"inst_311A5472","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_311A5472","objectId":{"name":"game_controller","path":"objects/game_controller/game_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":64.0,},
         {"$GMRInstance":"v2","%Name":"inst_6D8971","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D8971","objectId":{"name":"obj_right","path":"objects/obj_right/obj_right.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-1.4138852,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":672.0,},
         {"$GMRInstance":"v2","%Name":"inst_3FC193A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FC193A2","objectId":{"name":"obj_left","path":"objects/obj_left/obj_left.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":672.0,},
+        {"$GMRInstance":"v2","%Name":"inst_15ACD65A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15ACD65A","objectId":{"name":"brew_controller","path":"objects/brew_controller/brew_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_brew","path":"sprites/bg_brew/bg_brew.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
