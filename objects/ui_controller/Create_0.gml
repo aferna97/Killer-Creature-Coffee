@@ -1,0 +1,1 @@
+instance_create_layer(50,room_height-50,"Instances",obj_cat_icon)
