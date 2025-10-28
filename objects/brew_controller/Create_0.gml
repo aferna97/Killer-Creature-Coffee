@@ -18,3 +18,9 @@ with(obj_cup_full){
 		x=-200
 	}
 }
+with (obj_mug_full){
+	if (room_num == 2){
+		x=obj_mug.x
+		y=obj_mug.y
+	}
+}

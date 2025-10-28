@@ -16,7 +16,6 @@ if (global.additive2){
 }if (global.additive8){
 	instance_create_layer(608,672,"Instances", obj_dry_additive_8)
 }
-var move_y=350
 with(obj_cup_full){
 	if(room_num == 1){
 		x=temp_x
@@ -24,4 +23,7 @@ with(obj_cup_full){
 	} else {
 		x=room_width+200
 	}
+}
+with(obj_mug_full){
+	x = room_width+200	
 }
