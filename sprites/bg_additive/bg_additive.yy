@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Brew",
-    "path":"folders/Sprites/Brew.yy",
+    "name":"Additive",
+    "path":"folders/Sprites/Additive.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

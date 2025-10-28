@@ -1,4 +1,5 @@
 if (follow){
+	placed = false
 	if (mouse_x>0-sprite_width/2 && mouse_x <room_width+sprite_width/2){
 		x= mouse_x
 		temp_x = x

@@ -1,0 +1,1 @@
+sprite_index = spr_cauldron_top_burn

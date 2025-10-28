@@ -1,4 +1,4 @@
-//keeps bean
+//keeps bean on all rooms
 persistent = true
 //check beans
 if (prep_controller.bean){

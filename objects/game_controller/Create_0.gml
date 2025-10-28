@@ -8,3 +8,6 @@ global.additive5 = true
 global.additive6 = true
 global.additive7 = true
 global.additive8 = true
+
+//how many cups in room brew, max of 8
+global.cupsInBrew = 0
