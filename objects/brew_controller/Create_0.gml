@@ -22,5 +22,8 @@ with (obj_mug_full){
 	if (room_num == 2){
 		x=obj_mug.x
 		y=obj_mug.y
+	} else{
+		x=room_width+200
+		y=room_width+200
 	}
 }
