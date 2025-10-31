@@ -1,0 +1,1 @@
+additive_controller.click_bubble=true
