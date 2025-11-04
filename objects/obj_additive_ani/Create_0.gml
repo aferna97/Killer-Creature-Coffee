@@ -5,3 +5,4 @@ if (spr_index_ani==2){
 } else if (spr_index_ani == 4){
 	sprite_index = spr_additive_ani_4	
 }
+additive_controller.pouring=true

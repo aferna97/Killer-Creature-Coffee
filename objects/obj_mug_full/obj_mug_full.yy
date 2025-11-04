@@ -38,6 +38,8 @@
     {"$GMObjectProperty":"v1","%Name":"mug_ingre","filters":[],"listItems":[],"multiselect":false,"name":"mug_ingre","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"show_mug","filters":[],"listItems":[],"multiselect":false,"name":"show_mug","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"on_tray","filters":[],"listItems":[],"multiselect":false,"name":"on_tray","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"filtered","filters":[],"listItems":[],"multiselect":false,"name":"filtered","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"mug_prep_amount","filters":[],"listItems":[],"multiselect":false,"name":"mug_prep_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
