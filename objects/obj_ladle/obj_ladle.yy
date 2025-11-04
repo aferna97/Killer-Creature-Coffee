@@ -38,6 +38,7 @@
     {"$GMObjectProperty":"v1","%Name":"has_burn","filters":[],"listItems":[],"multiselect":false,"name":"has_burn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"filled_cups","filters":[],"listItems":[],"multiselect":false,"name":"filled_cups","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"ladle_ingre","filters":[],"listItems":[],"multiselect":false,"name":"ladle_ingre","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"ladle_prep_amount","filters":[],"listItems":[],"multiselect":false,"name":"ladle_prep_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
