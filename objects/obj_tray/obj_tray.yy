@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_burn_time",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tray",
+  "eventList":[],
   "managed":true,
-  "name":"obj_burn_time",
+  "name":"obj_tray",
   "overriddenProperties":[],
   "parent":{
-    "name":"Brew",
-    "path":"folders/Objects/Brew.yy",
+    "name":"Additive",
+    "path":"folders/Objects/Additive.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_burn_time",
-    "path":"sprites/spr_burn_time/spr_burn_time.yy",
+    "name":"spr_tray",
+    "path":"sprites/spr_tray/spr_tray.yy",
   },
   "spriteMaskId":null,
   "visible":true,

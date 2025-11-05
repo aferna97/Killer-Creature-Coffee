@@ -24,6 +24,14 @@ with(obj_cup_full){
 		x=room_width+200
 	}
 }
+var move_x = room_width+200
 with(obj_mug_full){
-	x = room_width+200	
+	x = move_x	
+}
+//deal with persistant cauldron tops
+with(obj_cauldron_top){
+	x=move_x	
+}
+with(obj_brew_time){
+	x=move_x
 }

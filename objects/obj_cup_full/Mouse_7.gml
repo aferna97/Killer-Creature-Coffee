@@ -1,4 +1,5 @@
 follow = false
+show = false
 
 	placed = true
 	global.held = false
@@ -15,19 +16,10 @@ if ((1229<x && x<room_width+sprite_width/2) && (500<y && y<660)){
 }
 var cauldron_on = instance_place(x,y,obj_cauldron)
 if (cauldron_on!= noone && !cauldron_on.brewing){
-	instance_create_layer(cauldron_on.x,cauldron_on.y,"brew", obj_cauldron_top)
+	var cauldron_top = instance_create_layer(cauldron_on.x,cauldron_on.y,"brew", obj_cauldron_top)
 	cauldron_on.brewing = true
-	obj_cauldron_top.brew_bean_1 = has_bean_1
-	obj_cauldron_top.brew_bean_2 = has_bean_2
-	obj_cauldron_top.brew_bean_3 = has_bean_3
-	obj_cauldron_top.brew_dry_1 = has_dry_1
-	obj_cauldron_top.brew_dry_2 = has_dry_2
-	obj_cauldron_top.brew_dry_3 = has_dry_3
-	obj_cauldron_top.brew_dry_4 = has_dry_4
-	obj_cauldron_top.brew_dry_5 = has_dry_5
-	obj_cauldron_top.brew_dry_6 = has_dry_6
-	obj_cauldron_top.brew_dry_7 = has_dry_7
-	obj_cauldron_top.brew_dry_8 = has_dry_8
+	cauldron_top.brew_ingre = ingredients
+	cauldron_top.brew_prep_amount = spr_index_cup
 	global.cupsInBrew-=1
 	instance_destroy(self)	
 }
