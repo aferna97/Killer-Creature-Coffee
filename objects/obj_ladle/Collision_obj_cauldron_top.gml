@@ -1,3 +1,4 @@
+
 if (!has_brew && !has_burn){
 	var associated_top = instance_nearest(x,y,obj_cauldron_top)
 	if (associated_top.sprite_num == 1){

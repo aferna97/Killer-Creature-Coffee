@@ -18,6 +18,7 @@ var cauldron_on = instance_place(x,y,obj_cauldron)
 if (cauldron_on!= noone && !cauldron_on.brewing){
 	var cauldron_top = instance_create_layer(cauldron_on.x,cauldron_on.y,"brew", obj_cauldron_top)
 	cauldron_on.brewing = true
+	audio_play_sound(Sound_boiling,10,0)
 	cauldron_top.brew_ingre = ingredients
 	cauldron_top.brew_prep_amount = spr_index_cup
 	global.cupsInBrew-=1

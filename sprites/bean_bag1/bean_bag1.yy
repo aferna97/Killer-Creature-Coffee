@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"bean_bag1",
   "bboxMode":0,
   "bbox_bottom":291,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

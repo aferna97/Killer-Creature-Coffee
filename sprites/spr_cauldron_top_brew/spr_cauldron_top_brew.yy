@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cauldron_top_brew",
   "bboxMode":0,
   "bbox_bottom":41,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e7af945f-ef4f-4862-88cf-4a9d0552323a","name":"e7af945f-ef4f-4862-88cf-4a9d0552323a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e7af945f-ef4f-4862-88cf-4a9d0552323a","name":"e7af945f-ef4f-4862-88cf-4a9d0552323a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

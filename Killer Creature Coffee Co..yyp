@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Killer Creature Coffee Co.",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -62,7 +62,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Killer Creature Coffee Co.",
   "resources":[
@@ -132,6 +132,11 @@
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"Order","path":"rooms/Order/Order.yy",},},
     {"id":{"name":"Prep","path":"rooms/Prep/Prep.yy",},},
+    {"id":{"name":"Sound_boiling","path":"sounds/Sound_boiling/Sound_boiling.yy",},},
+    {"id":{"name":"Sound_pouringCoffee","path":"sounds/Sound_pouringCoffee/Sound_pouringCoffee.yy",},},
+    {"id":{"name":"Sound_purring","path":"sounds/Sound_purring/Sound_purring.yy",},},
+    {"id":{"name":"Sound_scoopingCoffee","path":"sounds/Sound_scoopingCoffee/Sound_scoopingCoffee.yy",},},
+    {"id":{"name":"Sound_twisting","path":"sounds/Sound_twisting/Sound_twisting.yy",},},
     {"id":{"name":"bean_bag1","path":"sprites/bean_bag1/bean_bag1.yy",},},
     {"id":{"name":"bean_bag2","path":"sprites/bean_bag2/bean_bag2.yy",},},
     {"id":{"name":"bean_bag3","path":"sprites/bean_bag3/bean_bag3.yy",},},
