@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_additive_ani_1",
   "bboxMode":0,
   "bbox_bottom":299,
