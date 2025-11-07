@@ -19,6 +19,7 @@ if (cauldron_on!= noone && !cauldron_on.brewing){
 	var cauldron_top = instance_create_layer(cauldron_on.x,cauldron_on.y,"brew", obj_cauldron_top)
 	cauldron_on.brewing = true
 	cauldron_top.brew_ingre = ingredients
+	cauldron_top.brew_prep_amount = spr_index_cup
 	global.cupsInBrew-=1
 	instance_destroy(self)	
 }

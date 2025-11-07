@@ -27,3 +27,12 @@ with (obj_mug_full){
 		y=room_width+200
 	}
 }
+//deal with persistant cauldron tops
+with(obj_cauldron_top){
+	x=og_top_x
+	y=og_top_y
+}
+with(obj_brew_time){
+	x=og_brew_x
+	y=og_brew_y
+}

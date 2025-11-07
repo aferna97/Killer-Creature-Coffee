@@ -1,5 +1,6 @@
 var move_y=700
 var move_x = 100
+//deal with persistant mugs
 with(obj_mug_full){
 
 	if(room_num == 3){
@@ -20,6 +21,15 @@ with(obj_mug_full){
 	}
 	
 }
+var move_off_x = room_width+200
+//deal with persistant cups
 with(obj_cup_full){
-	x=room_width+200
+	x=move_off_x
+}
+//deal with persistant cauldron tops
+with(obj_cauldron_top){
+	x=move_off_x	
+}
+with(obj_brew_time){
+	x=move_off_x
 }
