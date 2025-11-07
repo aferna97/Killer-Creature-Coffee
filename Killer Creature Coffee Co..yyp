@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Killer Creature Coffee Co.",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -44,6 +44,7 @@
     {"$GMFolder":"","%Name":"ladle","folderPath":"folders/Sprites/Brew/ladle.yy","name":"ladle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"mug","folderPath":"folders/Sprites/Brew/mug.yy","name":"mug","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Computer","folderPath":"folders/Sprites/Computer.yy","name":"Computer","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Backgrounds","folderPath":"folders/Sprites/Backgrounds.yy","name":"Backgrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"MainMenu","folderPath":"folders/Sprites/MainMenu.yy","name":"MainMenu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Order","folderPath":"folders/Sprites/Order.yy","name":"Order","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Monsters","folderPath":"folders/Sprites/Order/Monsters.yy","name":"Monsters","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -62,7 +63,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Killer Creature Coffee Co.",
   "resources":[
@@ -133,8 +134,13 @@
     {"id":{"name":"bean_bag2","path":"sprites/bean_bag2/bean_bag2.yy",},},
     {"id":{"name":"bean_bag3","path":"sprites/bean_bag3/bean_bag3.yy",},},
     {"id":{"name":"bg_additive","path":"sprites/bg_additive/bg_additive.yy",},},
+    {"id":{"name":"bg_big_room","path":"sprites/bg_big_room/bg_big_room.yy",},},
     {"id":{"name":"bg_brew","path":"sprites/bg_brew/bg_brew.yy",},},
+    {"id":{"name":"bg_close_room","path":"sprites/bg_close_room/bg_close_room.yy",},},
     {"id":{"name":"bg_computer","path":"sprites/bg_computer/bg_computer.yy",},},
+    {"id":{"name":"bg_counter","path":"sprites/bg_counter/bg_counter.yy",},},
+    {"id":{"name":"bg_detail_stove","path":"sprites/bg_detail_stove/bg_detail_stove.yy",},},
+    {"id":{"name":"bg_grinder","path":"sprites/bg_grinder/bg_grinder.yy",},},
     {"id":{"name":"bg_mm","path":"sprites/bg_mm/bg_mm.yy",},},
     {"id":{"name":"bg_order","path":"sprites/bg_order/bg_order.yy",},},
     {"id":{"name":"bg_prep","path":"sprites/bg_prep/bg_prep.yy",},},
@@ -190,6 +196,7 @@
     {"id":{"name":"spr_mug_burn","path":"sprites/spr_mug_burn/spr_mug_burn.yy",},},
     {"id":{"name":"spr_mug_full","path":"sprites/spr_mug_full/spr_mug_full.yy",},},
     {"id":{"name":"spr_mug","path":"sprites/spr_mug/spr_mug.yy",},},
+    {"id":{"name":"spr_next_room_placeholder","path":"sprites/spr_next_room_placeholder/spr_next_room_placeholder.yy",},},
     {"id":{"name":"spr_placeholder_2","path":"sprites/spr_placeholder_2/spr_placeholder_2.yy",},},
     {"id":{"name":"spr_placeholder_3","path":"sprites/spr_placeholder_3/spr_placeholder_3.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},

@@ -1,25 +1,25 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"bean_bag1",
   "bboxMode":0,
-  "bbox_bottom":291,
-  "bbox_left":55,
-  "bbox_right":241,
-  "bbox_top":42,
+  "bbox_bottom":289,
+  "bbox_left":56,
+  "bbox_right":247,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d8a5bf34-4dfd-4993-a75e-9397e0e489fe","name":"d8a5bf34-4dfd-4993-a75e-9397e0e489fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":300,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8db86dda-df2f-4615-bcf0-eaced4a249c5","blendMode":0,"displayName":"default","isLocked":false,"name":"8db86dda-df2f-4615-bcf0-eaced4a249c5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a1ce809b-41ff-49a8-acc7-79e5f83f3ac5","blendMode":0,"displayName":"default","isLocked":false,"name":"a1ce809b-41ff-49a8-acc7-79e5f83f3ac5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bean_bag1",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16cfc67b-6167-4d9d-9480-b0abca5a0678","path":"sprites/bean_bag1/bean_bag1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7a3c593c-ba1f-43e0-b593-9a6ea577ea82","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a5bf34-4dfd-4993-a75e-9397e0e489fe","path":"sprites/bean_bag1/bean_bag1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0a924af5-ae19-4592-89ad-043fcf27ea6f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
