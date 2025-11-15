@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_placeholder_2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placeholder","path":"objects/obj_placeholder/obj_placeholder.yy",},"propertyId":{"name":"icon","path":"objects/obj_placeholder/obj_placeholder.yy",},"resource":{"name":"obj_icon_02","path":"objects/obj_icon_02/obj_icon_02.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_icon_02",},
+  ],
   "parent":{
     "name":"Monsters",
     "path":"folders/Objects/Order/Monsters.yy",
@@ -27,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"delete_self","filters":[],"listItems":[],"multiselect":false,"name":"delete_self","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"delete_self","filters":[],"listItems":[],"multiselect":false,"name":"delete_self","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
