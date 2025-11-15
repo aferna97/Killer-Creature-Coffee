@@ -1,0 +1,4 @@
+if (!refreshed){
+	refreshed = true
+	
+}
