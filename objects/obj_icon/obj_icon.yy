@@ -26,7 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"icon_object","filters":[],"listItems":[],"multiselect":false,"name":"icon_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"game_controller.customer_1","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"icon_object","filters":[],"listItems":[],"multiselect":false,"name":"icon_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"game_controller.customer_1","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
