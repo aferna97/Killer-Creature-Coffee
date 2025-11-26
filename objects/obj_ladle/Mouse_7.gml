@@ -4,6 +4,7 @@ if (place_meeting(x,y,obj_mug) && filled_cups == 0){
 	if(has_brew){
 		if (place_meeting(x,y,obj_filter_flat)){
 			obj_filter_flat.poured = true
+			audio_play_sound(sfx_pouring,10,0)
 		}
 		instance_create_layer(obj_mug.x,obj_mug.y,"draggable", obj_mug_full)
 		sprite_index = spr_ladle_empty

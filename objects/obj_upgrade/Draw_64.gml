@@ -1,0 +1,1 @@
+draw_text(x+200,y,"Price: " + string(price) + "\nDescription...")

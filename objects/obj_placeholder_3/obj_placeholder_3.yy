@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_placeholder_3",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placeholder","path":"objects/obj_placeholder/obj_placeholder.yy",},"propertyId":{"name":"icon","path":"objects/obj_placeholder/obj_placeholder.yy",},"resource":{"name":"obj_icon_03","path":"objects/obj_icon_03/obj_icon_03.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_icon_03",},
+  ],
   "parent":{
     "name":"Monsters",
     "path":"folders/Objects/Order/Monsters.yy",
@@ -33,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_3",
-    "path":"sprites/spr_placeholder_3/spr_placeholder_3.yy",
+    "name":"spr_frank",
+    "path":"sprites/spr_frank/spr_frank.yy",
   },
   "spriteMaskId":null,
   "visible":true,

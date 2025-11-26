@@ -1,11 +1,10 @@
 
 draw_set_alpha(1)
+draw_set_font(txt_default)
 draw_sprite(spr_heart,0, 30,30)
 
 
 draw_set_halign(fa_center)
 draw_text(50, 30, "x" + string(hearts))
-//debug
-//draw_set_halign(fa_center)
-//draw_text(50, 80, "walkOuts: " + string(obj_cat.customer_walk_out))
+draw_text(50, 50, "night " + string(global.night))
 
