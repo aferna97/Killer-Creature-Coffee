@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_upgrade_eye",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7c8f11b7-0ef4-4121-ac1b-35b64ff0a34f","name":"7c8f11b7-0ef4-4121-ac1b-35b64ff0a34f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c8f11b7-0ef4-4121-ac1b-35b64ff0a34f","name":"7c8f11b7-0ef4-4121-ac1b-35b64ff0a34f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
