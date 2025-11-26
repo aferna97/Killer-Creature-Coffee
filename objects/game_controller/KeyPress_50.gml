@@ -1,3 +1,3 @@
-if (room != Prep){
+if (room != Prep && room != upgrades){
 	room_goto(2)	
 } 

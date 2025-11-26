@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_buy_no",
-    "path":"sprites/spr_buy_no/spr_buy_no.yy",
+    "name":"spr_buy_yes",
+    "path":"sprites/spr_buy_yes/spr_buy_yes.yy",
   },
   "spriteMaskId":null,
   "visible":true,

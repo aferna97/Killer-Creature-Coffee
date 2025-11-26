@@ -36,3 +36,15 @@ with(obj_brew_time){
 	x=og_brew_x
 	y=og_brew_y
 }
+//add pyromantic eyes if unlocked
+if (global.pyro_eyes){
+	instance_create_layer(250,700,"brew",obj_upgrade_eye)	
+}
+//add 5th cauldron if unlocked
+if (global.cauldron_1){
+	instance_create_layer(544,672, "Instances", obj_cauldron)	
+}
+//add 6th cauldron if unlocked
+if (global.cauldron_2){
+	instance_create_layer(832,672, "Instances", obj_cauldron)	
+}

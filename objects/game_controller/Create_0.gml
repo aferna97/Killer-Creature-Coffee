@@ -10,6 +10,9 @@ global.customers_served=0
 //customers order taken
 global.customers = 0
 
+//customers needed to be served
+global.customer_today=5
+
 //additives to be unlocked
 //starts false, but some true for testing
 global.additive1 = true
