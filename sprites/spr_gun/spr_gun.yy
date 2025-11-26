@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gun",
   "bboxMode":0,
   "bbox_bottom":499,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1b2e51cf-d1d9-431f-a9f3-5994f31fc9c7","name":"1b2e51cf-d1d9-431f-a9f3-5994f31fc9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b2e51cf-d1d9-431f-a9f3-5994f31fc9c7","name":"1b2e51cf-d1d9-431f-a9f3-5994f31fc9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

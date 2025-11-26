@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Killer Creature Coffee Co.",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -75,7 +75,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Killer Creature Coffee Co.",
   "resources":[
@@ -144,6 +144,7 @@
     {"id":{"name":"obj_mug","path":"objects/obj_mug/obj_mug.yy",},},
     {"id":{"name":"obj_placeholder_2","path":"objects/obj_placeholder_2/obj_placeholder_2.yy",},},
     {"id":{"name":"obj_placeholder_3","path":"objects/obj_placeholder_3/obj_placeholder_3.yy",},},
+    {"id":{"name":"obj_placeholder_4","path":"objects/obj_placeholder_4/obj_placeholder_4.yy",},},
     {"id":{"name":"obj_placeholder","path":"objects/obj_placeholder/obj_placeholder.yy",},},
     {"id":{"name":"obj_ready","path":"objects/obj_ready/obj_ready.yy",},},
     {"id":{"name":"obj_refresh","path":"objects/obj_refresh/obj_refresh.yy",},},
@@ -168,6 +169,10 @@
     {"id":{"name":"upgrades","path":"rooms/upgrades/upgrades.yy",},},
     {"id":{"name":"getUpgrades","path":"scripts/getUpgrades/getUpgrades.yy",},},
     {"id":{"name":"ratings","path":"scripts/ratings/ratings.yy",},},
+    {"id":{"name":"sfx_boiling","path":"sounds/sfx_boiling/sfx_boiling.yy",},},
+    {"id":{"name":"sfx_pouring","path":"sounds/sfx_pouring/sfx_pouring.yy",},},
+    {"id":{"name":"sfx_scooping","path":"sounds/sfx_scooping/sfx_scooping.yy",},},
+    {"id":{"name":"sfx_twisting","path":"sounds/sfx_twisting/sfx_twisting.yy",},},
     {"id":{"name":"bean_bag1","path":"sprites/bean_bag1/bean_bag1.yy",},},
     {"id":{"name":"bean_bag2","path":"sprites/bean_bag2/bean_bag2.yy",},},
     {"id":{"name":"bean_bag3","path":"sprites/bean_bag3/bean_bag3.yy",},},
@@ -238,6 +243,7 @@
     {"id":{"name":"spr_dry_additive_8","path":"sprites/spr_dry_additive_8/spr_dry_additive_8.yy",},},
     {"id":{"name":"spr_filter_bunched_up","path":"sprites/spr_filter_bunched_up/spr_filter_bunched_up.yy",},},
     {"id":{"name":"spr_filter_flat","path":"sprites/spr_filter_flat/spr_filter_flat.yy",},},
+    {"id":{"name":"spr_grinder_back","path":"sprites/spr_grinder_back/spr_grinder_back.yy",},},
     {"id":{"name":"spr_frank","path":"sprites/spr_frank/spr_frank.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},},
