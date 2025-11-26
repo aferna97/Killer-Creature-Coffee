@@ -63,7 +63,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Killer Creature Coffee Co.",
   "resources":[
@@ -198,6 +198,7 @@
     {"id":{"name":"spr_dry_additive_8","path":"sprites/spr_dry_additive_8/spr_dry_additive_8.yy",},},
     {"id":{"name":"spr_filter_bunched_up","path":"sprites/spr_filter_bunched_up/spr_filter_bunched_up.yy",},},
     {"id":{"name":"spr_filter_flat","path":"sprites/spr_filter_flat/spr_filter_flat.yy",},},
+    {"id":{"name":"spr_grinder_back","path":"sprites/spr_grinder_back/spr_grinder_back.yy",},},
     {"id":{"name":"spr_handle_ani","path":"sprites/spr_handle_ani/spr_handle_ani.yy",},},
     {"id":{"name":"spr_handle","path":"sprites/spr_handle/spr_handle.yy",},},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},
