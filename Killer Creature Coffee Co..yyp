@@ -243,6 +243,7 @@
     {"id":{"name":"spr_dry_additive_8","path":"sprites/spr_dry_additive_8/spr_dry_additive_8.yy",},},
     {"id":{"name":"spr_filter_bunched_up","path":"sprites/spr_filter_bunched_up/spr_filter_bunched_up.yy",},},
     {"id":{"name":"spr_filter_flat","path":"sprites/spr_filter_flat/spr_filter_flat.yy",},},
+    {"id":{"name":"spr_grinder_back","path":"sprites/spr_grinder_back/spr_grinder_back.yy",},},
     {"id":{"name":"spr_frank","path":"sprites/spr_frank/spr_frank.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},},

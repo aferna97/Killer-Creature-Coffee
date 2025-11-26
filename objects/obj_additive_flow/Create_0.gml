@@ -8,5 +8,5 @@ if (spr_index_flow==2){
 	sprite_index = spr_additive_flow_4
 	pow=14
 } 
-instance_create_layer(x-220,y,"foreground", obj_additive_amount)
+instance_create_layer(x-120,y,"foreground", obj_additive_amount)
 alarm[0] = 8*game_get_speed(gamespeed_fps)
