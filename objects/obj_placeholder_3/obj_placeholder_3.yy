@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_3",
-    "path":"sprites/spr_placeholder_3/spr_placeholder_3.yy",
+    "name":"spr_frank",
+    "path":"sprites/spr_frank/spr_frank.yy",
   },
   "spriteMaskId":null,
   "visible":true,
