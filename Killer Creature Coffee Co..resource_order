@@ -192,7 +192,6 @@
     {"name":"spr_dry_additive_8","order":7,"path":"sprites/spr_dry_additive_8/spr_dry_additive_8.yy",},
     {"name":"spr_filter_bunched_up","order":7,"path":"sprites/spr_filter_bunched_up/spr_filter_bunched_up.yy",},
     {"name":"spr_filter_flat","order":6,"path":"sprites/spr_filter_flat/spr_filter_flat.yy",},
-    {"name":"spr_grinder_back","order":8,"path":"sprites/spr_grinder_back/spr_grinder_back.yy",},
     {"name":"spr_frank","order":2,"path":"sprites/spr_frank/spr_frank.yy",},
     {"name":"spr_ghost","order":1,"path":"sprites/spr_ghost/spr_ghost.yy",},
     {"name":"spr_gun","order":1,"path":"sprites/spr_gun/spr_gun.yy",},
