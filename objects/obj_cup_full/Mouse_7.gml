@@ -12,6 +12,11 @@ if ((1229<x && x<room_width+sprite_width/2) && (500<y && y<660)){
 		global.cupsInBrew +=1
 	}
 } else if ((1229<x && x<room_width+sprite_width/2) && (420-sprite_height/2<y && y<450)){
+	//if rat is unlocked, add small tip before deleting cup
+	if (global.rat){
+		var i=random_range(0,0.1)
+		global.tips+=i
+	}
 	instance_destroy(self)
 }
 var cauldron_on = instance_place(x,y,obj_cauldron)

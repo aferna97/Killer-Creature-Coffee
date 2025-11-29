@@ -57,6 +57,7 @@ if (clicked_upgrade.price<=global.tips){
 			break
 		case spr_upgrade_11: 
 			global.giant_rusty_nail = true
+			instance_create_layer(-200,745,"buying", obj_upgrade_nail)
 			clicked_upgrade.sprite_index = spr_upgrade_empty
 			break
 		case spr_upgrade_12: 

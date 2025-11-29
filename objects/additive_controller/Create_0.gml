@@ -33,3 +33,16 @@ with(obj_cauldron_top){
 with(obj_brew_time){
 	x=move_off_x
 }
+//deal with persistant monster icons
+with(obj_monster_1){
+	x=move_off_x
+}
+//nail
+with(obj_upgrade_nail){
+	x=move_off_x
+}
+
+//creat gingerdead man if unlocked and not used
+if (global.gingerbead_man && !global.gingerdead_used){
+	instance_create_layer(60,350, "foreground", obj_upgrade_gingerdead)
+}

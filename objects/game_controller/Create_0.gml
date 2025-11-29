@@ -13,6 +13,9 @@ global.customers = 0
 //customers needed to be served
 global.customer_today=5
 
+//keeps track of if gingerdead has been used
+global.gingerdead_used=false
+
 //additives to be unlocked
 //starts false, but some true for testing
 global.additive1 = true

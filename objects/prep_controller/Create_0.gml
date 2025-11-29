@@ -35,3 +35,11 @@ with(obj_cauldron_top){
 with(obj_brew_time){
 	x=move_x
 }
+//deal with persistant monster icons
+with(obj_monster_1){
+	x=move_x
+}
+//nail
+with(obj_upgrade_nail){
+	x=move_x
+}

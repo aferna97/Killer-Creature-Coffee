@@ -27,6 +27,7 @@ with (obj_mug_full){
 		y=room_width+200
 	}
 }
+move_x=room_width+200
 //deal with persistant cauldron tops
 with(obj_cauldron_top){
 	x=og_top_x
@@ -36,6 +37,11 @@ with(obj_brew_time){
 	x=og_brew_x
 	y=og_brew_y
 }
+//deal with persistant monster icons
+with(obj_monster_1){
+	x=move_x
+}
+
 //add pyromantic eyes if unlocked
 if (global.pyro_eyes){
 	instance_create_layer(250,700,"brew",obj_upgrade_eye)	
@@ -47,4 +53,8 @@ if (global.cauldron_1){
 //add 6th cauldron if unlocked
 if (global.cauldron_2){
 	instance_create_layer(832,672, "Instances", obj_cauldron)	
+}
+//nail
+with(obj_upgrade_nail){
+	x=move_x
 }
