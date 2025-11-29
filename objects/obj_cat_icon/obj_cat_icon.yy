@@ -8,8 +8,8 @@
   "name":"obj_cat_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"meta",
-    "path":"folders/Objects/meta.yy",
+    "name":"ui",
+    "path":"folders/Objects/meta/ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,
