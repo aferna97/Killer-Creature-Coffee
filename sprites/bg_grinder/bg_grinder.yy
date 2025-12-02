@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Prep",
-    "path":"folders/Sprites/Prep.yy",
+    "name":"bean_machine",
+    "path":"folders/Sprites/Prep/bean_machine.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
