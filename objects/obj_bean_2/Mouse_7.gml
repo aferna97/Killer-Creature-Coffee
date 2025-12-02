@@ -1,4 +1,4 @@
-if ((800<x && x<1100)&& (120<y && y<430)){
+if ((830<x && x<1150)&& (190<y && y<470)){
 	prep_controller.bean_2=true
 }
 instance_destroy(self)
