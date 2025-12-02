@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"c15d49c8-068e-4c3d-a75f-4c3fc567c624","name":"c15d49c8-068e-4c3d-a75f-4c3fc567c624","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"322a88a1-932c-4570-8fe3-c5d40b52870f","name":"322a88a1-932c-4570-8fe3-c5d40b52870f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":967,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"979fb574-b713-4473-8512-fdaff59b2ed1","blendMode":0,"displayName":"default","isLocked":false,"name":"979fb574-b713-4473-8512-fdaff59b2ed1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8415ed4d-8bbe-447f-832c-1fcf1f2cab74","blendMode":0,"displayName":"default","isLocked":false,"name":"8415ed4d-8bbe-447f-832c-1fcf1f2cab74","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_gun",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c15d49c8-068e-4c3d-a75f-4c3fc567c624","path":"sprites/spr_gun/spr_gun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"909fa34c-ab30-4fbc-897f-a5899e909e4e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"322a88a1-932c-4570-8fe3-c5d40b52870f","path":"sprites/spr_gun/spr_gun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a623707-d548-4d4b-84ff-54ec1dbe5b5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
