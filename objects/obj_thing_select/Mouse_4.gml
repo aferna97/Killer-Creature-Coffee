@@ -1,1 +1,0 @@
-computer_controller.click_bubble=true

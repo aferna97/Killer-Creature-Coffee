@@ -1,3 +1,8 @@
+//show customers on icon
+with (obj_icon_01){
+	
+}
+
 //deal with persistant items
 var move_x = room_width+200
 //nail
