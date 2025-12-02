@@ -5,7 +5,7 @@
 }
 else if (!order_controller.ordering){*/
 	//instance_create_layer(room_width-200,room_height-450,"Instances_foreground", obj_ticket)
-	instance_create_layer(room_width-200,room_height-450,"Instances_foreground", Obj_dialogue_frank)
+	instance_create_layer(room_width-200,room_height-450,"Instances_foreground", obj_dialogue_frank)
 	order_controller.ordering = true
 	//angry = false
 	//save customer in game_controller to use for selecting who

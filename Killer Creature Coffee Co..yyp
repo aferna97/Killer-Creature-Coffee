@@ -81,6 +81,7 @@
   },
   "name":"Killer Creature Coffee Co.",
   "resources":[
+    {"id":{"name":"Fnt_dialogue","path":"fonts/Fnt_dialogue/Fnt_dialogue.yy",},},
     {"id":{"name":"question","path":"fonts/question/question.yy",},},
     {"id":{"name":"txt_default","path":"fonts/txt_default/txt_default.yy",},},
     {"id":{"name":"additive_controller","path":"objects/additive_controller/additive_controller.yy",},},

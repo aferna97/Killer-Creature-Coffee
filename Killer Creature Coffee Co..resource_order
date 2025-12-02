@@ -63,6 +63,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Fnt_dialogue","order":2,"path":"fonts/Fnt_dialogue/Fnt_dialogue.yy",},
     {"name":"txt_default","order":1,"path":"fonts/txt_default/txt_default.yy",},
     {"name":"additive_controller","order":8,"path":"objects/additive_controller/additive_controller.yy",},
     {"name":"brew_controller","order":6,"path":"objects/brew_controller/brew_controller.yy",},
