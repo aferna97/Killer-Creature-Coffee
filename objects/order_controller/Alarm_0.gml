@@ -1,10 +1,10 @@
 if (customers < 3 && global.customers_served<global.customer_today+customers){
-	with(obj_placeholder){
+	with(obj_parent){
 		x-=200
 	}
 	//randomize monster spawning based on difficulty
 	var i = irandom_range(0,100)
-	var inst = instance_create_layer(spawn_x,15,"Customer",obj_placeholder)
+	var inst = instance_create_layer(spawn_x,15,"Customer",obj_parent)
 	if(i<17){
 		inst.sprite_index=spr_zombie
 		inst.patience=120	//monster wait time for ordering
