@@ -10,11 +10,20 @@ global.customers_served=0
 //customers order taken
 global.customers = 0
 
+//amount of things served
+global.things_served=0
+
 //customers needed to be served
 global.customer_today=5
 
 //keeps track of if gingerdead has been used
 global.gingerdead_used=false
+
+//keeps track of if faulty bullets has been used
+global.faulty_bullets_used=false
+
+//keeps track of if arsenic has been used
+global.arsenic_used=false
 
 //additives to be unlocked
 //starts false, but some true for testing
@@ -44,7 +53,6 @@ global.cauldron_2 = false
 global.PKE = false
 global.dracula = false
 global.possessed_radio = false
-global.giant_rusty_nail = false
 global.cat_muzzle = false
 global.arsenic = false
 global.monkeys_paw = false

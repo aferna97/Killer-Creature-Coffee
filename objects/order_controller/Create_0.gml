@@ -7,10 +7,7 @@ with(obj_cup_full){
 	x=move_x
 }
 
-//show rusty nail if unlocked
-if (global.giant_rusty_nail){
-	instance_create_layer(100,680, "instances_foreground", obj_upgrade_monkey)
-}
+
 //show cat talisman if unlocked
 if (global.cat_talisman){
 	instance_create_layer(280,700, "instances_foreground", obj_upgrade_cat_talisman)
@@ -23,6 +20,10 @@ if (global.rat){
 if (global.spine_chiller){
 	instance_create_layer(500,670, "instances_foreground", obj_upgrade_spine_chiller)
 }
+//show faulty_bullets if unlocked
+if (global.faulty_bullets){
+	instance_create_layer(608,736, "instances_foreground", obj_upgrade_faulty_bullets)
+}
 
 //deal with persistant cauldron tops
 with(obj_cauldron_top){
@@ -34,9 +35,5 @@ with(obj_brew_time){
 //deal with persistant monster icons
 with(obj_monster_1){
 	x=move_x
-}
-//nail
-with(obj_upgrade_nail){
-	x=120
 }
 

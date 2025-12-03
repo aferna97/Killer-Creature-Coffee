@@ -30,13 +30,23 @@ if (room==Additive && inBubble){
 	if (global.monkeys_paw){
 		tip=tip*1.2
 	}
-
-	global.tips+=tip
+	
 	if (num_of_mugs!=0){
 		rating=rating/num_of_mugs
 	}
 	//save customer as served for today
 	global.customers_served+=1
-	//play review
+	if (!thing){
+		global.tips+=tip
+		//play review
+	} else{
+		if (global.arsenic && !global.arsenic_used){	//if arsenic unlocked and not used, do nothing
+			global.arsenic_used=true	//set as used
+			//////play thing dealt with by arsenic////////////
+		} else{		//if arsenic not used, add to count
+			global.things_served+=1
+			///////play thing review with no tip and feed counter increases//////
+		}
+	}
 	//destroy self afterwords
 }

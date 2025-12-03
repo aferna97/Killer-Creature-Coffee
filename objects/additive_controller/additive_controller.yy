@@ -9,8 +9,8 @@
   "name":"additive_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"meta",
-    "path":"folders/Objects/meta.yy",
+    "name":"controllers",
+    "path":"folders/Objects/meta/controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

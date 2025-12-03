@@ -37,10 +37,6 @@ with(obj_brew_time){
 with(obj_monster_1){
 	x=move_off_x
 }
-//nail
-with(obj_upgrade_nail){
-	x=move_off_x
-}
 
 //creat gingerdead man if unlocked and not used
 if (global.gingerbead_man && !global.gingerdead_used){

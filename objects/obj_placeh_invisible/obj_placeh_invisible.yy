@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_placeh_invisible",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},"propertyId":{"name":"icon","path":"objects/obj_parent/obj_parent.yy",},"resource":{"name":"obj_icon_01","path":"objects/obj_icon_01/obj_icon_01.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_icon_03",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},"propertyId":{"name":"icon","path":"objects/obj_parent/obj_parent.yy",},"resource":{"name":"obj_icon_01","path":"objects/obj_icon_01/obj_icon_01.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_icon_01",},
   ],
   "parent":{
     "name":"Monsters",

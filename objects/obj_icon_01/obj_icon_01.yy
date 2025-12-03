@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_icon_01",
-    "path":"sprites/spr_icon_01/spr_icon_01.yy",
+    "name":"spr_comp_frank",
+    "path":"sprites/spr_comp_frank/spr_comp_frank.yy",
   },
   "spriteMaskId":null,
   "visible":true,
