@@ -8,8 +8,8 @@
   "name":"computer_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"meta",
-    "path":"folders/Objects/meta.yy",
+    "name":"controllers",
+    "path":"folders/Objects/meta/controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,6 +27,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"selected_monster","filters":[],"listItems":[],"multiselect":false,"name":"selected_monster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"monster","filters":[],"listItems":[],"multiselect":false,"name":"monster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

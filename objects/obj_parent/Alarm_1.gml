@@ -1,17 +1,11 @@
 angry = true
 //change sprite to angry version if enough time has passed
 switch(sprite_index){
-	case spr_bigfoot:
-		sprite_index=spr_bigfoot_angry
-		break
 	case spr_frank:
 		sprite_index=spr_frank_angry
 		break
 	case spr_ghost:
 		sprite_index=spr_ghost_angry
-		break
-	case spr_headless:
-		sprite_index=spr_headless_angry
 		break
 	case spr_invisible:
 		sprite_index=spr_invisible_angry

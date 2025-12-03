@@ -39,7 +39,3 @@ with(obj_brew_time){
 with(obj_monster_1){
 	x=move_x
 }
-//nail
-with(obj_upgrade_nail){
-	x=move_x
-}

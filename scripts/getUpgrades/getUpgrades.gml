@@ -74,13 +74,6 @@ function getUpgrades(){
 			price=0
 			description="Increases wait time for all monsters by 1.2"
 			break
-			case "giant": 
-			//change to giant rusty nail upgrade
-			sprite_index=spr_upgrade_11
-			//set price
-			price=0
-			description="Prevents a single encounter with Bigfoot Can only be used once"
-			break
 			case "cat muzzle": 
 			//change to cat muzzle upgrade
 			sprite_index=spr_upgrade_12
@@ -179,8 +172,6 @@ function generate_array(){
 		array_push(array_upgrade,"dracula")
 	} if (!global.possessed_radio){
 		array_push(array_upgrade,"radio")
-	} if (!global.giant_rusty_nail){
-		array_push(array_upgrade,"giant")
 	} if (!global.cat_muzzle){
 		array_push(array_upgrade,"cat muzzle")
 	} if (!global.arsenic){

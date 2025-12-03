@@ -54,7 +54,3 @@ if (global.cauldron_1){
 if (global.cauldron_2){
 	instance_create_layer(832,672, "Instances", obj_cauldron)	
 }
-//nail
-with(obj_upgrade_nail){
-	x=move_x
-}
