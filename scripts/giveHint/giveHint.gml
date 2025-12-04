@@ -93,17 +93,19 @@ function giveHint(){
 				break
 		}
 	//sign offs
-	var k=irandom_range(0,2)
-	switch(k){
-		case 0: 
-			hint+="Thats enough hints! Scram!"
-			break
-		case 1:
-			hint+="Well? Get back to work!"
-			break
-		case 2:
-			hint+="I do not pay you to stand around, move!"
-			break
+	if (!global.cat_muzzle){
+		var k=irandom_range(0,2)
+		switch(k){
+			case 0: 
+				hint+="Thats enough hints! Scram!"
+				break
+			case 1:
+				hint+="Well? Get back to work!"
+				break
+			case 2:
+				hint+="I do not pay you to stand around, move!"
+				break
+		}
 	}
 	return hint
 	}
@@ -133,7 +135,7 @@ function hintDry(coffee,num){
 		hint+="Coffee "+ string(num)+" has candy...\n"
 	}
 	//to help break up the text wall
-	if (hint!=""){
+	if (hint!="" && !global.cat_muzzle){
 		hint+="I pay you to make coffee! Stop quizzing me!\n"
 	}
 	if ((floor(coffee/100000))%2==1){	//hint on dry 3
@@ -143,7 +145,7 @@ function hintDry(coffee,num){
 		hint+="Coffee "+ string(num)+" has brain...\n"
 	}
 	//to help break up the text wall
-	if (hint!=""){
+	if (hint!="" && !global.cat_muzzle){
 		hint+="Seriously... how could you forget so much!\n"
 	}
 	if ((floor(coffee/10000000))%2==1){	//hint on dry 5
@@ -164,7 +166,7 @@ function hintWet(coffee,num){
 		hint+="Coffee "+ string(num)+" has some poison...\n"
 	}
 	//to help break up the text wall
-	if (hint!=""){
+	if (hint!="" && !global.cat_muzzle){
 		hint+="Can't you remember anything?\n"
 	}
 	if ((floor(coffee/(1*power(10,13))))%2==1){	//hint on wet 3
