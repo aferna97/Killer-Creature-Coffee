@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat_face_animated",
-    "path":"sprites/spr_cat_face_animated/spr_cat_face_animated.yy",
+    "name":"spr_cat_animated_blush",
+    "path":"sprites/spr_cat_animated_blush/spr_cat_animated_blush.yy",
   },
   "spriteMaskId":null,
   "visible":true,
