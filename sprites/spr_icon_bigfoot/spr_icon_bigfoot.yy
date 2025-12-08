@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"monster_icons",
-    "path":"folders/Sprites/Additive/monster_icons.yy",
+    "path":"folders/Sprites/Computer/monster_icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

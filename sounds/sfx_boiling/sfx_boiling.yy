@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_boiling",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Brewing",
+    "path":"folders/Sounds/Brewing.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

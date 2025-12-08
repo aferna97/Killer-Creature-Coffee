@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_twisting",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Prep Adds",
+    "path":"folders/Sounds/Prep Adds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

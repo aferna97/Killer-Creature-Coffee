@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_hiss",
+  "%Name":"sfx_chalk_tap",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.122653,
+  "duration":0.09498866,
   "exportDir":"",
-  "name":"sfx_hiss",
+  "name":"sfx_chalk_tap",
   "parent":{
-    "name":"Brewing",
-    "path":"folders/Sounds/Brewing.yy",
+    "name":"UI Sounds",
+    "path":"folders/Sounds/UI Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_hiss.mp3",
+  "soundFile":"sfx_chalk_tap.wav",
   "volume":1.0,
 }
