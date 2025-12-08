@@ -145,6 +145,8 @@
     {"id":{"name":"obj_dry_additive_8","path":"objects/obj_dry_additive_8/obj_dry_additive_8.yy",},},
     {"id":{"name":"obj_filter_bunched","path":"objects/obj_filter_bunched/obj_filter_bunched.yy",},},
     {"id":{"name":"obj_filter_flat","path":"objects/obj_filter_flat/obj_filter_flat.yy",},},
+    {"id":{"name":"obj_game_credits","path":"objects/obj_game_credits/obj_game_credits.yy",},},
+    {"id":{"name":"obj_game_quit","path":"objects/obj_game_quit/obj_game_quit.yy",},},
     {"id":{"name":"obj_game_start","path":"objects/obj_game_start/obj_game_start.yy",},},
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},},
     {"id":{"name":"obj_handle_ani","path":"objects/obj_handle_ani/obj_handle_ani.yy",},},

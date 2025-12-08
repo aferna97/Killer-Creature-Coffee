@@ -119,6 +119,8 @@
     {"name":"obj_dry_additive_8","order":7,"path":"objects/obj_dry_additive_8/obj_dry_additive_8.yy",},
     {"name":"obj_filter_bunched","order":11,"path":"objects/obj_filter_bunched/obj_filter_bunched.yy",},
     {"name":"obj_filter_flat","order":10,"path":"objects/obj_filter_flat/obj_filter_flat.yy",},
+    {"name":"obj_game_credits","order":2,"path":"objects/obj_game_credits/obj_game_credits.yy",},
+    {"name":"obj_game_quit","order":3,"path":"objects/obj_game_quit/obj_game_quit.yy",},
     {"name":"obj_game_start","order":1,"path":"objects/obj_game_start/obj_game_start.yy",},
     {"name":"obj_handle_ani","order":2,"path":"objects/obj_handle_ani/obj_handle_ani.yy",},
     {"name":"obj_handle","order":1,"path":"objects/obj_handle/obj_handle.yy",},
