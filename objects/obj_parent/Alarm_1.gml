@@ -10,9 +10,6 @@ switch(sprite_index){
 	case spr_invisible:
 		sprite_index=spr_invisible_angry
 		break
-	case spr_mummy:
-		sprite_index=spr_mummy_angry
-		break
 	case spr_vampire:
 		sprite_index=spr_vampire_angry
 		break

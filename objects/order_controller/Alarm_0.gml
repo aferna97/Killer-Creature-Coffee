@@ -18,10 +18,10 @@ if (customers < 3 && global.customers_served<global.customer_today+customers){
 		inst.sprite_index=spr_ghost
 		inst.patience=110 //monster wait time for ordering
 		inst.icon=spr_icon_ghost
-	} else if (i<72){
+	/*} else if (i<72){
 		inst.sprite_index=spr_mummy
 		inst.patience=110 //monster wait time for ordering
-		inst.icon=spr_icon_mummy
+		inst.icon=spr_icon_mummy */
 	} else if (i<84){
 		inst.sprite_index=spr_frank
 		inst.patience=90 //monster wait time for ordering

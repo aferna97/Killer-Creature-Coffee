@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_start_button",
-    "path":"sprites/spr_start_button/spr_start_button.yy",
+    "name":"spr_start_game",
+    "path":"sprites/spr_start_game/spr_start_game.yy",
   },
   "spriteMaskId":null,
   "visible":true,

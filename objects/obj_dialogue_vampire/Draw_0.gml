@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_sprite(spr_ticket_new,0,1180,300)
+draw_sprite(spr_ticket_alt,0,1180,300)
 	
 draw_set_font(Fnt_dialogue)
 draw_set_halign(fa_left)

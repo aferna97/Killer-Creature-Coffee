@@ -4,7 +4,7 @@ orderIndex = irandom_range(0,1)
 
 if(orderIndex == 0)
 {
-	text[0]= "Sample order text"
+	text[0]= ".One cursed coffee \n-Bone powder \n-Milk \n.One dark roast coffee \n-Maggots"
 
 	text_current = 0
 	text_last = 1
@@ -21,7 +21,7 @@ if(orderIndex == 0)
 }
 if(orderIndex == 1)
 {
-	text[0]= "Sample order text"
+	text[0]= ".Two dark roast coffees \n.Candy \n.Milk \n.For both"
 
 	text_current = 0
 	text_last = 1

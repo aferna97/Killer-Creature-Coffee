@@ -3,6 +3,7 @@
   "%Name":"obj_cat",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_cat",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cat",
-    "path":"sprites/spr_cat/spr_cat.yy",
+    "name":"spr_cat_sleeping",
+    "path":"sprites/spr_cat_sleeping/spr_cat_sleeping.yy",
   },
   "spriteMaskId":null,
   "visible":true,
