@@ -1,4 +1,5 @@
 //debug
+/*
 draw_set_halign(fa_center)
 
 draw_text(50, 50, "bean: " + string(bean))
@@ -11,4 +12,4 @@ draw_text(50, 170, "dry4: " + string(dry_4))
 draw_text(50, 190, "dry5: " + string(dry_5))
 draw_text(50, 210, "dry6: " + string(dry_6))
 draw_text(50, 230, "dry7: " + string(dry_7))
-draw_text(50, 250, "dry8: " + string(dry_8))
+draw_text(50, 250, "dry8: " + string(dry_8))*/

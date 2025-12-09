@@ -12,3 +12,6 @@ if (room != upgrades && global.customers_served == global.customer_today){
 	
 	room_goto(7)
 } 
+if (health ==0){
+	game_end()
+}

@@ -10,13 +10,13 @@ text_last = 1
 text_width = 500
 //starting coordinates of text
 text_x = 200
-text_y = 200
+text_y = 50
 
 //speed for text
 char_current = 1
-char_speed = 0.25
+char_speed = 0.75
 
 text[text_current] = drinkOrder(text[text_current], text_width)
 
 //player must watch the text for at least 2 seconds
-alarm[0]=5*game_get_speed(gamespeed_fps)
+alarm[0]=3*game_get_speed(gamespeed_fps)

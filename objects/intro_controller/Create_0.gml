@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+text_width = 480
 text[0]= "Hello new hire! Welcome to Killer Creature Coffee Co. \n\nYou will be serving different monst- *cough* customers I mean, throughout the nightshift, so don't fret. \n\nPress Space to skip or continue"
 text[1]= "However make sure to not forget the orders and don't make the customers wait too long. \n\nThere are arrow keys at the bottom right corner to help you navigate the shop in the next room."
 text[2]="There are also useful keys you can click. \n\n1 - Order room \n2 - Prep room \n3 - Brew room \n4 - Additive room \n5 - Computer room"
@@ -10,9 +11,9 @@ text[6]="This is the last time I'll be nice, but if you ever forget an order, yo
 
 text_current = 0
 text_last = 6
-text_width = 500
+
 //starting coordinates of text
-text_x = 80
+text_x = 90
 text_y = 100
 
 //speed for text

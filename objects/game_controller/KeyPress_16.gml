@@ -1,5 +1,5 @@
 //show current customers waiting in main rooms
-if (room!=MainMenu && room!=upgrades){
+if (room!=MainMenu && room!=upgrades && room!=Reviewing && room!=Credits){
 	//deal with bubble if it exists
 	if (instance_exists(obj_customer_select) && !additive_controller.click_bubble){
 		//destroy bubble and deal with obj_monster

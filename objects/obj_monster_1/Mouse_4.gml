@@ -44,14 +44,17 @@ if (room==Additive && inBubble){
 	} else{
 		if (global.arsenic && !global.arsenic_used){	//if arsenic unlocked and not used, do nothing
 			global.arsenic_used=true	//set as used
-			instance_create_layer(50,50,"Info", review_controller,{tip:tip, rating:rating, thing:false, monster:sprite_index})
+			instance_create_layer(50,50,"Info", review_controller,{tip:0, rating:0, thing:false, monster:sprite_index})
 			room_goto(9)
 		} else{		//if arsenic not used, add to count
 			global.things_served+=1
-			instance_create_layer(50,50,"Info", review_controller,{tip:tip, rating:rating, thing:true, monster:sprite_index})
+			instance_create_layer(50,50,"Info", review_controller,{tip:0, rating:0, thing:true, monster:sprite_index})
 			room_goto(9)
 		}
 	}
 	//destroy self afterwords
+	var deletetion = instance_nearest(0,0,obj_warning)
+	instance_destroy(deletetion)
+	global.customers_served+=1
 	instance_destroy(self)
 }

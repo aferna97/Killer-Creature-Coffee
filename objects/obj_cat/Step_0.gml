@@ -4,8 +4,8 @@ if (!angry && customer_walk_out==1){
 		default:
 		sprite_index=spr_cat_angry
 		break
-		alarm[0]=2*game_get_speed(gamespeed_fps)
 	}
+	alarm[0]=2*game_get_speed(gamespeed_fps)
 	audio_play_sound(sfx_hiss,10,0)
 	angry = true
 } else if (customer_walk_out ==2 && !global.cat_talisman){

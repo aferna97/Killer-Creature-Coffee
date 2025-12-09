@@ -62,3 +62,6 @@ global.rat = false
 global.spine_chiller = false
 global.gingerbead_man = false
 global.monster_rifle = false
+
+//play bg music
+audio_play_sound(mus_bg,5,true)

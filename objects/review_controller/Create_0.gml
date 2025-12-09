@@ -1,11 +1,12 @@
 persistent=true
-//switch sprite and measure happiness
+//switch sprite, play respective sound and measure happiness
 switch(monster){
 	case spr_icon_zombie:
+		audio_play_sound(sfx_zombie,9,false)
 		if (rating<2){
 			monster = spr_zombie_angry
 			happiness=-1
-		} else if (ratin<3){
+		} else if (rating<3){
 			monster=spr_zombie
 			happiness=0
 		} else{
@@ -14,10 +15,11 @@ switch(monster){
 		}
 		break
 	case spr_icon_invisible:
+		audio_play_sound(sfx_invis,9,false)
 		if (rating<2){
 			monster = spr_invisible_angry
 			happiness=-1
-		} else if (ratin<3){
+		} else if (rating<3){
 			monster=spr_invisible
 			happiness=0
 		} else{
@@ -26,10 +28,11 @@ switch(monster){
 		}
 		break
 	case spr_icon_ghost:
+		audio_play_sound(sfx_ghost,9,false)
 		if (rating<1){
 			monster = spr_ghost_angry
 			happiness=-1
-		} else if (ratin<2){
+		} else if (rating<2){
 			monster=spr_ghost
 			happiness=0
 		} else{
@@ -38,6 +41,7 @@ switch(monster){
 		}
 		break
 	case spr_icon_frank:
+	audio_play_sound(sfx_frank,9,false)
 		if (rating<2){
 			monster = spr_frank_angry
 			happiness=-1
@@ -50,6 +54,7 @@ switch(monster){
 		}
 		break
 	case spr_icon_werewolf:
+		audio_play_sound(sfx_werewolf,9,false)
 		if (rating<2.3){
 			monster = spr_werewolf_angry
 			happiness=-1
@@ -62,6 +67,7 @@ switch(monster){
 		}
 		break
 	case spr_icon_vampire:
+		audio_play_sound(sfx_vamp,9,false)
 		if (rating<3){
 			monster = spr_frank_angry
 			happiness=-1
@@ -80,7 +86,7 @@ var text_holder=""
 if (happiness==-1){
 	//decrease health by 1 heart
 	health-=10
-	if (!thing){
+	if (!thing && rating !=0 && tip !=0){
 		var i = irandom_range(1,4)
 		switch (i){
 			case 1:
@@ -96,7 +102,10 @@ if (happiness==-1){
 				text_holder= "What is this???"
 				break
 		}
-	} else{
+	} else if (!thing){	//use arsenic
+		monster = spr_thing
+		text_holder =  "Hmm, this tastes weird"
+	} else{		//serve thing
 		monster = spr_thing
 		text_holder = "haha! I tricked you!"
 	}
@@ -107,7 +116,7 @@ if (happiness==-1){
 			text_holder= "This is ok... I guess"
 			break
 		case 2:
-			text[0]= "It could be way better."
+			text_holder= "It could be way better."
 			break
 		case 3:
 			text_holder= "This is not bad, but it's far from great."
@@ -130,7 +139,7 @@ if (happiness==-1){
 			break
 	}
 }
-//add rating to text then show it
+//add rating to text then show it if not thing
 if (!thing){
 text_holder+="\nI'd give you a rating of " + string(rating) + ", so here is a tip of $" + string(tip) + "."
 }
@@ -148,6 +157,6 @@ char_current = 1
 char_speed = 0.25
 
 text[text_current] = drinkOrder(text[text_current], text_width)
-}
+
 //set alarm for 30 seconds, so player can read then leave
-alarm[0]=30*game_get_speed(gamespeed_fps)
+alarm[0]=15*game_get_speed(gamespeed_fps)

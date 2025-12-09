@@ -7,6 +7,7 @@ else if (!order_controller.ordering){*/
 	//instance_create_layer(room_width-200,room_height-450,"Instances_foreground", obj_ticket)
 	instance_create_layer(room_width-200,room_height-450,"Instances_foreground", obj_dialogue_zombie)
 	order_controller.ordering = true
+	audio_play_sound(noise,9,false)
 	//angry = false
 	//save customer in game_controller to use for selecting who
 	//to serve and scan for if it's thing

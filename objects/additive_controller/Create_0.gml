@@ -1,4 +1,4 @@
-var move_y=700
+var move_y=565
 var move_x = 100
 //deal with persistant mugs
 with(obj_mug_full){

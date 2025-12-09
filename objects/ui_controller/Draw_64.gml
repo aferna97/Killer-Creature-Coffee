@@ -1,6 +1,7 @@
 
 draw_set_alpha(1)
 draw_set_font(txt_default)
+draw_set_colour(c_white)
 draw_sprite(spr_heart,0, 30,30)
 
 
