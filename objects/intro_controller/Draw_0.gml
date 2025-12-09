@@ -3,7 +3,7 @@
 draw_set_font(Fnt_dialogue_cat)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
-draw_set_colour(c_black)
+draw_set_colour(c_white)
 
 var len = string_length(text[text_current])
 if (char_current < len)

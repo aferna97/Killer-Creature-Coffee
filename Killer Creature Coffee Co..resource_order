@@ -251,7 +251,6 @@
     {"name":"spr_icon_frank","order":2,"path":"sprites/spr_icon_frank/spr_icon_frank.yy",},
     {"name":"spr_icon_ghost","order":1,"path":"sprites/spr_icon_ghost/spr_icon_ghost.yy",},
     {"name":"spr_icon_invisible","order":3,"path":"sprites/spr_icon_invisible/spr_icon_invisible.yy",},
-    {"name":"spr_icon_mummy","order":5,"path":"sprites/spr_icon_mummy/spr_icon_mummy.yy",},
     {"name":"spr_icon_none","order":1,"path":"sprites/spr_icon_none/spr_icon_none.yy",},
     {"name":"spr_icon_shoot","order":10,"path":"sprites/spr_icon_shoot/spr_icon_shoot.yy",},
     {"name":"spr_icon_vampire","order":4,"path":"sprites/spr_icon_vampire/spr_icon_vampire.yy",},
