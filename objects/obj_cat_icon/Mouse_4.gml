@@ -1,5 +1,6 @@
 //show dialog
-var givenHint = string( giveHint())
+var givenHint = ""
+givenHint = string(giveHint())
 if (givenHint != ""){
 	hint = givenHint
 } else{

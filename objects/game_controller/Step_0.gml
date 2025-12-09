@@ -10,5 +10,5 @@ if (room != upgrades && global.customers_served == global.customer_today){
 	var i=irandom_range(1,2)
 	global.customer_today+=i
 	
-	room_goto(6)
+	room_goto(7)
 } 

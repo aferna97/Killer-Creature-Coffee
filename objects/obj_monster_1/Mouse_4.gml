@@ -39,14 +39,19 @@ if (room==Additive && inBubble){
 	if (!thing){
 		global.tips+=tip
 		//play review
+		instance_create_layer(50,50,"Info", review_controller,{tip:tip, rating:rating, thing:false, monster:sprite_index})
+		room_goto(9)
 	} else{
 		if (global.arsenic && !global.arsenic_used){	//if arsenic unlocked and not used, do nothing
 			global.arsenic_used=true	//set as used
-			//////play thing dealt with by arsenic////////////
+			instance_create_layer(50,50,"Info", review_controller,{tip:tip, rating:rating, thing:false, monster:sprite_index})
+			room_goto(9)
 		} else{		//if arsenic not used, add to count
 			global.things_served+=1
-			///////play thing review with no tip and feed counter increases//////
+			instance_create_layer(50,50,"Info", review_controller,{tip:tip, rating:rating, thing:true, monster:sprite_index})
+			room_goto(9)
 		}
 	}
 	//destroy self afterwords
+	instance_destroy(self)
 }
