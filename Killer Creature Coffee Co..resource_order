@@ -71,6 +71,7 @@
     {"name":"Fnt_dialogue_cat_hint","order":6,"path":"fonts/Fnt_dialogue_cat_hint/Fnt_dialogue_cat_hint.yy",},
     {"name":"Fnt_dialogue_cat","order":4,"path":"fonts/Fnt_dialogue_cat/Fnt_dialogue_cat.yy",},
     {"name":"Fnt_dialogue","order":2,"path":"fonts/Fnt_dialogue/Fnt_dialogue.yy",},
+    {"name":"txt_credits","order":5,"path":"fonts/txt_credits/txt_credits.yy",},
     {"name":"txt_default","order":1,"path":"fonts/txt_default/txt_default.yy",},
     {"name":"txt_title","order":3,"path":"fonts/txt_title/txt_title.yy",},
     {"name":"brew_controller","order":1,"path":"objects/brew_controller/brew_controller.yy",},
