@@ -1,3 +1,3 @@
 if (room != Computer && room != upgrades){
-	room_goto(5)	
+	room_goto(6)	
 } 

@@ -73,6 +73,8 @@ function perfect_ingredients(mug, monster,coffee){
 				break
 		}
 }
+
+
 function imperfect_ingredients(mug,monster,diff){
 	if (diff>1000000000){	//significantly wrong
 		monster.rating+=1.2*monster.lenient

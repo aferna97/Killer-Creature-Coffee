@@ -12,9 +12,6 @@ function giveHint(){
 			case spr_icon_vampire:
 				hint = "Tick Tock, the vampire won't wait all day...\n"
 				break
-			case spr_icon_mummy:
-				hint = "I swear, you always bother me! Just serve the mummy\n"
-				break
 			case spr_icon_invisible:
 				hint = "Did you forget my buddy, invisible man? Get his order out! Now!\n"
 				break
