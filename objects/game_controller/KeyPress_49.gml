@@ -1,3 +1,3 @@
 if (room != Order && room != upgrades){
-	room_goto(2)	
+	room_goto(Order)	
 } 

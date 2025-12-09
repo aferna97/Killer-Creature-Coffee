@@ -1,5 +1,5 @@
 if (room == Computer && room != upgrades){
-	room_goto(2)	
+	room_goto(upgrades)	
 } else if (room != upgrades){
 	room_goto_next()
 }

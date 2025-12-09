@@ -1,3 +1,3 @@
 if (room != Brew && room != upgrades){
-	room_goto(4)	
+	room_goto(Brew)	
 } 

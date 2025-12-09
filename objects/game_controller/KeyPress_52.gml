@@ -1,3 +1,3 @@
 if (room != Additive && room != upgrades){
-	room_goto(5)	
+	room_goto(Additive)	
 } 

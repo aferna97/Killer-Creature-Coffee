@@ -16,3 +16,10 @@ if (instance_exists(obj_cauldron_top)){
 	draw_text(50, 250, "dry8: " + string(obj_cauldron_top.brew_dry_8))
 */
 }
+var count = maxTime - seconds
+if((count <= 59) && (count >= 51))
+{	
+	draw_set_font(Fnt_dialogue_cat)
+	draw_text_transformed(650,50,"Hint: click the filter first to display over cup, \nthen pour brewed coffee over into cup to filter",2,2,0)
+	//draw_sprite(spr_cat_small,1,310,60)
+}

@@ -10,9 +10,9 @@ text[6]="This is the last time I'll be nice, but if you ever forget an order, yo
 
 text_current = 0
 text_last = 6
-text_width = 500
+text_width = 480
 //starting coordinates of text
-text_x = 80
+text_x = 90
 text_y = 100
 
 //speed for text
