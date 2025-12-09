@@ -1,5 +1,5 @@
 if (room == Order){
-	room_goto(5)	
+	room_goto(Computer)	
 } else{
 	room_goto_previous()
 }
